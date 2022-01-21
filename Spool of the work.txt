@@ -1,0 +1,459 @@
+SQL> @"D:\Last Sem\Advance DB\HR.sql";
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+SQL> start"D:\Last Sem\Advance DB\A.DatabaseFirstAssignment\DB\assproanonblock.sql";
+
+Procedure created.
+
+Enter the department ID: 1
+
+                                                                               
+LOCATION OF DEPARTMENT THAT YOU ENTERED THE ID                                  
+================================================                                
+Department Name is	Administration                                               
+Street Address is 	2004 Charade Rd                                              
+The Postal Code is	98199                                                        
+The City Name is	Seattle                                                        
+THE Province is		Washington                                                     
+The Country is 		United States of America                                       
+
+PL/SQL procedure successfully completed.
+
+SQL> start"D:\Last Sem\Advance DB\A.DatabaseFirstAssignment\DB\assfunanonblock.sql";
+
+Function created.
+
+Enter the employee id: 120
+
+                                                                               
+THE DETAILS OF EMPLOYEE THAT YOU ENTERED THE ID	                                
+======================================================                          
+The Employee Full Name is 	Matthew Weiss                                        
+The Employee is working IN 	Shipping Department.                                
+His Original Salary is		8000                                                    
+His Salary After Promotion is	8800                                              
+
+PL/SQL procedure successfully completed.
+
+SQL> start"D:\Last Sem\Advance DB\A.DatabaseFirstAssignment\DB\assanonblock.sql"
+Enter Employee ID: 107
+
+                                                                               
+INFORMATION OF EMPLOYEE THAT YOU ENTERED THE ID                                 
+================================================                                
+The Employee Full Name is Diana Lorentz                                         
+With The Phone Number Of 590.423.5567                                           
+And He is working in the IT Department                                          
+which is located in Southlake Of Texas                                          
+
+PL/SQL procedure successfully completed.
+
+SQL> start"D:\Last Sem\Advance DB\A.DatabaseFirstAssignment\DB\asscursor.sql";
+Enter the job ID: 7
+The Maximum Salary is Updated.                                                  
+
+PL/SQL procedure successfully completed.
+
+SQL> start"D:\Last Sem\Advance DB\A.DatabaseFirstAssignment\DB\assexception.sql";
+The select statement retrieved multiple rows.                                   
+
+PL/SQL procedure successfully completed.
+
+SQL> spool off;

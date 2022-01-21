@@ -1,0 +1,31 @@
+SQL> Select * From aircraft;
+
+AC_NU AC_HOURS_FLOWN                                                            
+----- --------------                                                            
+1484P         3833.1                                                            
+2289L         1243.8                                                            
+2778V         5992.9                                                            
+4278Y          647.3                                                            
+
+SQL> @"D:\Last Sem\Advance DB\exe\try.sql";
+
+Trigger created.
+
+SQL> INSERT INTO charter(char_trip, ac_number, char_hours_flown)
+  2  VALUES(10019, '4278Y', 10);
+
+                                                                               
+Charter trip added and aircraft hours flown updated.                            
+
+1 row created.
+
+SQL> Select * From aircraft;
+
+AC_NU AC_HOURS_FLOWN                                                            
+----- --------------                                                            
+1484P         3833.1                                                            
+2289L         1243.8                                                            
+2778V         5992.9                                                            
+4278Y          657.3                                                            
+
+SQL> SPOOL OFF
